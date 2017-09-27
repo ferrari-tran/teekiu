@@ -7,6 +7,7 @@ import Tk404 from '@/components/404'
 Vue.use(Router)
 
 const router = new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
