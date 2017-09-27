@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import TkPage from '@/components/Page'
 import TkThankyou from '@/components/Thankyou'
+import Tk404 from '@/components/404'
 
 Vue.use(Router)
 
@@ -21,6 +22,14 @@ const router = new Router({
       component: TkThankyou,
       meta: {
         title: 'Thank you'
+      }
+    },
+    {
+      path: '*',
+      name: 'tk-404',
+      component: Tk404,
+      meta: {
+        title: 'Error Page'
       }
     }
   ]
