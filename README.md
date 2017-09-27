@@ -1,4 +1,4 @@
-# teekiu
+# Teekiu
 
 > Landing page for Teekiu fitness.
 
